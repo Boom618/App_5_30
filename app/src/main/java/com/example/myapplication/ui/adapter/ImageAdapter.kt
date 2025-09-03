@@ -1,17 +1,12 @@
 package com.example.myapplication.ui.adapter
 
 import android.content.Context
-import android.graphics.Bitmap
-import android.graphics.drawable.BitmapDrawable
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.BaseAdapter
 import android.widget.ImageView
-import com.bumptech.glide.Glide
 import com.example.myapplication.R
-import com.example.myapplication.ui.ImageUtil
 
 class ImageAdapter(private val context: Context, private val items: List<Int>) : BaseAdapter() {
     override fun getCount(): Int {

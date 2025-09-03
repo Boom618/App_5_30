@@ -1,19 +1,11 @@
 package com.example.myapplication.ui.home
 
-import android.content.Context
 import android.os.Bundle
-import android.util.DisplayMetrics
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.view.WindowManager
-import android.widget.TextView
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.ViewModelProvider
 import com.example.myapplication.databinding.FragmentHomeBinding
-import com.example.myapplication.ui.adapter.ImageAdapter
-import com.example.myapplication.R
-import kotlinx.coroutines.CoroutineScope
 
 class HomeFragment : Fragment() {
 
