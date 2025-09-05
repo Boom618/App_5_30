@@ -1,6 +1,6 @@
 [versions]
-activityCompose = "1.10.1"
-agp = "8.4.0"
+activityCompose = "1.9.0"
+agp = "8.9.0"
 kotlin = "2.0.21"
 coreKtx = "1.15.0"
 junit = "4.13.2"
@@ -16,6 +16,7 @@ navigationFragmentKtx = "2.6.0"
 navigationUiKtx = "2.6.0"
 glide = "4.16.0"
 composeBom = "2025.05.00"
+utilcodex = "1.30.6"
 
 [libraries]
 androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "activityCompose" }
@@ -37,6 +38,7 @@ androidx-compose-bom = { module = "androidx.compose:compose-bom", version.ref = 
 androidx-material3 = { module = "androidx.compose.material3:material3" }
 androidx-ui-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview" }
 androidx-ui-tooling = { module = "androidx.compose.ui:ui-tooling" }
+utilcodex = { module = "com.blankj:utilcodex", version.ref = "utilcodex" }
 
 
 [plugins]

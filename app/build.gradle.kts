@@ -72,6 +72,8 @@ dependencies {
     implementation(libs.androidx.activity.compose)
     implementation(libs.androidx.lifecycle.viewmodel.compose)
 
+    implementation(libs.utilcodex)
+
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
